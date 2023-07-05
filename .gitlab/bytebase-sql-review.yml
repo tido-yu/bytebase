@@ -4,7 +4,7 @@ bytebase-sql-review:
       - merge_requests
   image: docker:stable
   variables:
-    API: "http://124.156.196.237:5678/hook/sql-review/7f2e4cd1-26b4-4287-996b-475a3c8fc9a2-1688523636" # This is the API for SQL reivew.
+    API: "https://myiu4ls7.us-central1.bytebase.com/hook/sql-review/workspace_ylyu-demo-1688527416" # This is the API for SQL reivew.
   before_script:
     - apk update && apk add curl
     - apk update && apk add jq
